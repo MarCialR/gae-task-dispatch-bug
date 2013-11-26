@@ -1,0 +1,3 @@
+queue:
+- name: task-queue
+  rate: 120/s
