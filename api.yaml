@@ -1,4 +1,4 @@
-application: gae-task-dispatch-bug
+application: marcial-languages
 module: api
 version: 24
 runtime: python27
