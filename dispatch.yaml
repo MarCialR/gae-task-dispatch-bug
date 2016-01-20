@@ -1,6 +1,2 @@
-dispatch:
-  - url: "*/api/*"
-    module: api
+application: marcial-languages
 
-  - url: "*/*"
-    module: default

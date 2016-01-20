@@ -1,0 +1,15 @@
+application: marcial-languages
+
+version: appversion
+runtime: python27
+
+api_version: 1
+threadsafe: true
+
+env_variables:
+  YAML_VERSION: 'appversion'
+  YAML_MODULE: 'default'
+
+handlers:
+- url: /.*
+  script: app.application
